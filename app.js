@@ -9,13 +9,6 @@ const cookieParser = require('cookie-parser')
 const app = express()
 const request = require('request')
 
-// app.use(
-//   '/graphql',
-//   graphqlHTTP({
-//     schema: schema,
-//     graphiql: true,
-//   })
-// )
 
 const redirect_uri = 'http://localhost:3001/callback'
 const scope = 'user-read-private user-read-email'
